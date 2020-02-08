@@ -23,4 +23,15 @@ ref. https://doc.rust-jp.rs/book/second-edition
   * immutable concept is crashed .. ?
     * ref. chapter 3
 * `loop` is infinite loop. should use `break`
-*  
+* edit `.idea/workspace.xml`'s `component name="CargoProjects"` for use multiple cargo projects in clion
+  * like this
+  
+```xml
+<component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/hello_world/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/guessing_game/Cargo.toml" />
+  </component>
+```
+
+* 
