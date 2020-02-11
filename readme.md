@@ -5,6 +5,34 @@ ref. https://doc.rust-jp.rs/book/second-edition
 # 2/11 today I learn
 
 * impl todo
+* ownership: rust don't have gc because rust have this.
+  * all program must manage memory while running
+  * rust feature: memory management checked by compiler!
+  * so rust have many rules for ownership
+  * no overhead by ownership system
+* stack and heap
+  * both:
+    * can store memory area
+  * stack:
+    * LIFO(last in, first out)
+      * ex: dish plate.
+    * can operation `push`, `pop`
+    * stack is speedy!!
+      * no need search allocation address
+        * because push on first
+      * newest data is always top
+    * CONS: 
+      * memory size should be *FIXED* at compiling
+  * heap:
+    * can store *unknown size data*
+    * not speedy!!!!! (than stack)
+      * because it should find purpose by checking address
+  * at called function, args and local vars put on stack
+    * when end of function, remove on stack theirs
+  * Rust have OWNERSHIP for heap management
+    
+  
+  
 
 # 2/8 today I learn
 
