@@ -2,6 +2,10 @@
 
 ref. https://doc.rust-jp.rs/book/second-edition
 
+# 2/11 today I learn
+
+* impl todo
+
 # 2/8 today I learn
 
 * use clion for learning
