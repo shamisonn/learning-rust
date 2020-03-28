@@ -2,6 +2,13 @@
 
 ref. https://doc.rust-jp.rs/book/second-edition
 
+# 3/28 today I learn
+
+* stack value has auto copy on scope changed.
+* heap value don't copy on scope changing.
+  * use `clone`
+  * or use `&` (= borrowing)
+
 # 2/11 today I learn
 
 * impl todo
